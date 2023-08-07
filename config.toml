@@ -40,6 +40,12 @@ hasCJKLanguage = true
     parent = "works"
     url = "/reflections/111-2/5"
 
+[[menu.main]]
+    name = "意見回饋"
+    weight = 20
+    identifier = "suggest"
+    url = "/suggest"
+
 # [[menu.main]]
 #     name = "常見問題"
 #     weight = 30

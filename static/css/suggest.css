@@ -1,0 +1,66 @@
+.suggest-identity {
+    width: 50%;
+    border-radius: 5px;
+    border-color: #D0D0D0;
+}
+
+.suggest-input {
+    width: 30%;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #D0D0D0;
+}
+
+.suggest-content {
+    width: 78vw;
+    height: 60vh;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #D0D0D0;
+}
+
+.suggest-btn {
+    background-color: #121212;
+    color: #758b99;
+    width: 10%;
+    border-radius: 20px;
+}
+
+.modalfade {
+    animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s; /* Firefox */
+    -webkit-animation: fadeIn 1s; /* Safari and Chrome */
+    -o-animation: fadeIn 1s; /* Opera */
+}
+@keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeIn { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadeIn { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadeIn { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
